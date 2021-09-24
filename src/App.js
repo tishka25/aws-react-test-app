@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const imgUrl = "https://wavebrowser.com/wp-content/uploads/2021/02/WaveLogo-text-White-45x225-1.png";
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={imgUrl} className="App-logo" alt="logo" />
         <p>
-          Zdr Rumqnche
+          Wave Browser is the best browser
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
